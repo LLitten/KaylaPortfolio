@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Base of everything */
+body {
+    font-family: "Red Hat Display", sans-serif;    
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900 */
+
+.red-hat {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.banner-top {
+    background-color: rgb(255, 255, 255);
+    font-family: "Madimi One", sans-serif;
+    font-size: 75px;;
+    padding: 20px 20px;
+    text-align: left;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+.banner-top p {
+    margin: 0;
+}
+.banner-bar {
+    background-color: #e73b32;
+    font-family: "Madimi One", sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    top: calc(100%-100px);
+    position: relative;
+    z-index: 3;
+}
+.banner-bar a {
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    width: auto;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.main-avatar {
+    position: absolute;
+    top: 90%;
+    right: 50px;
+    max-width: 250px;
+    vertical-align: center;
+    padding: 10px;
+}
+
+.main-avatar img{
+    width: 100%;
+    height: auto;
+}
+
+/* Side bar */
+.sidebar {
+    font-family: "Red Hat Display", sans-serif;    
+    text-align: center;
+    width: 250px;
+    background-color: #a3a3a3;
+    color: #2f84e4;
+    position: fixed;
+    top: 0px; 
+    left: 0;
+    height: 100%;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* sidebar vertical-ness */
+.sidebar ul li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.sidebar ul li:last-child {
+    border-bottom: none;
+}
+
+.sidebar ul li a {
+    color: #b6b6b6;    /* change for the sidebar text */
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    color: #e73b32;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.content {
+    margin-left: 0px; 
+    margin-top: 90px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-content {
+    flex: 1;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    width: calc(100% - 250px);
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* 2x3 photo grid */
+.photo-grid2x3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px; /* Add spacing between images */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    justify-content: center; 
+    gap: 10px; /* Add spacing between images */
+}
+
+.row img {
+    width: 100%; /* Make each image take up 1/3 of the row width */
+    height: auto;
+    object-fit: contain; /* Maintain aspect ratio */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+

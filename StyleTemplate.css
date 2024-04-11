@@ -1,0 +1,100 @@
+/* Base of everything */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.banner {
+
+        background-color: #7860ff;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        height: 50px;
+        position: relative;
+        z-index: 3;
+    }
+    .banner p {
+        margin: 0;
+    }
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: aqua;
+    }
+
+    section {
+        background-color: #922e2e;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        width: 1425px;
+    }
+
+
+    /* Side bar */
+.sidebar {
+        width: 250px;
+        background-color: #ff0000;
+        color: #fff;
+        position: fixed;
+        top: 0px; /* Adjusted to accommodate the banner height */
+        left: 0;
+        height: 100%; /* Adjusted to account for the banner height */
+        overflow-y: auto; /* Enable scrolling if content exceeds height */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+        /* margin: 20px 0; */
+    }
+
+    .sidebar ul li {
+        padding: 10px;
+        border-bottom: 1px solid #555;
+    }
+
+    .sidebar ul li:last-child {
+        border-bottom: none;
+    }
+
+    .sidebar ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+
+.content {
+    margin-left: 250px; /* Adjust margin to accommodate sidebar width */
+    margin-top: 90px; /* Adjust margin to accommodate the banner height */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+}
