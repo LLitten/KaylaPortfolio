@@ -164,7 +164,7 @@ section {
 }
 
 .photo {
-    flex-basis: calc(45% - 5px); /* Adjust the width of each photo */
+    flex-basis: calc(35% - 5px); /* Adjust the width of each photo */
 }
 
 .photo img {
