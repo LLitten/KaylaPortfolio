@@ -5,57 +5,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kayla's Portfolio</title> <!-- Tab name -->
     <link rel="stylesheet" href="ITSComicStyle.css"> <!-- Linking to external CSS file -->
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 </head>
-<body>
-    <div class="banner-top">
-        <p>Kayla Bush</p>
-    </div> <!-- close banner top -->
-    <div class="banner-bar">
-        <a href="https://ko-fi.com/kaylasartwork">Ko-Fi</a>
-        <a href="https://www.tumblr.com/blog/kaylasartwork">Tumblr</a>
-        <a href="https://twitter.com/KaylaArtwork">Twitter</a>
-        <a href=" https://www.webtoons.com/en/canvas/its-the-small-things-my-trans-journey/list?title_no=872176">Webtoons</a>
+<body>    
 
-    </div> <!-- close banner bar -->
+<div class="banner-top">
+    <p>Kayla Bush</p>
+</div> <!-- close banner top -->
+<div class="banner-bar">
+    <a href="https://ko-fi.com/kaylasartwork">Ko-Fi</a>
+    <a href="https://www.tumblr.com/blog/kaylasartwork">Tumblr</a>
+    <a href="https://twitter.com/KaylaArtwork">Twitter</a>
+    <a href=" https://www.webtoons.com/en/canvas/its-the-small-things-my-trans-journey/list?title_no=872176">Webtoons</a>
+</div> <!-- close banner bar -->
 
+<div class="sidebar">
+    <ul>
+        <li><a href="index.html">Main</a></li>
+        <li><a href="AboutMe.html">About Me</a></li>
+        <li><a href="ITSComic.html">Its The Small Things</a></li>
+        <li><a href="Comics.html">More Comics</a></li>
+        <li><a href="LayoutDesign.html">Layout/Design</a></li>
+        <li><a href="OtherArt.html">More Art</a></li>
+    </ul>
+</div> <!-- close sidebar -->
 
-    <div class="sidebar">
-        <ul>
-            <li><a href="index.html">Main</a></li>
-            <li><a href="AboutMe.html">About Me</a></li>
-            <li><a href="ITSComic.html">Its The Small Things</a></li>
-            <li><a href="Comics.html">More Comics</a></li>
-            <li><a href="LayoutDesign.html">Layout/Design</a></li>
-            <li><a href="OtherArt.html">More Art</a></li>
+<div class="content">
+    <header>            
+        <h1>It's the Small Things</h1>
+    </header>
 
+    <main>
+        <section>
+            <p>A series of comics about my journey as a trans woman.</p>
+        </section>
+    </main>        
 
-
-            <!-- Add more menu items as needed -->
-        </ul>
-    </div> <!-- close sidebar -->
-
-    <div class="content">
-        <header>            
-            
-            <h1>Featured Work</h1>
-
-        </header>
-        
-
-        <main>
-            <section>
-                <h2>Section Title</h2>
-                <p>This is a sample section. Add your content here.</p>
-            </section>
-        </main>
-    </div>
-
-
+    <!-- section for pictures -->
+    <section class="photo-section">
+        <div class="photo-grid">
+            <div class="photo">
+                <img src="imgs\ITST\ITST_Dinner.jpg" alt="Dinner">
+            </div>
+            <div class="photo">
+                <img src="imgs\ITST\ITST_SwimSuit.png" alt="Swim Suit">
+            </div>
 
 
+            <div class="photo">
+                <img src="imgs\ITST\ITST_Daughter.jpg" alt="Daughter">
+            </div>
+            <div class="photo">
+                <img src="imgs\ITST\ITST_GrowingPains.jpg" alt="Growing Pains">
+            </div>
 
 
+            <div class="photo">
+                <img src="imgs\ITST\ITST_SuddenCurves.jpg" alt="Sudden Curves">
+            </div>
 
+                 <div class="photo">
+                <img src="imgs\ITST\ITST_Idol.png" alt="Idol">
+            </div>
+
+
+            <div class="photo">
+                <img src="imgs\ITST\ITST_EuphoricThings.png" alt="Euphoric Things">
+            </div>       
+            <div class="photo">
+                <img src="imgs\ITST\ITST_Lovey.png" alt="Lovey">
+            </div>
+
+
+            <div class="photo">
+                <img src="imgs\ITST\ITST_SelfReflection.jpg" alt="Self Reflection">
+            </div>      
+            <div class="photo">
+                <img src="imgs\ITST\ITST_realisation.jpg" alt="Realisation">
+            </div>
+
+
+            <div class="photo">
+                <img src="imgs\ITST\ITST_Staring.jpg" alt="Staring">
+            </div>            
+            <div class="photo">
+                <img src="imgs\ITST\ITST_Haircut2.jpg" alt="haircut 2">
+            </div>
+
+
+            <div class="photo">
+                <img src="imgs\ITST\ITST_Reflection.jpg" alt="Reflection">
+            </div>
+
+
+            <!-- Ur A Guy Photo Carousel -->
+            <div class="photo carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="imgs\ITST\ITST_UrAGuy1.png" alt="Ur A Guy 1">
+                        <img src="imgs\ITST\ITST_UrAGuy2.png" alt="Ur A Guy 2">
+                        <!-- Add more carousel images as needed -->
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div><!-- close carousel container -->
+            </div><!-- close  UR A Guyphoto carousel -->
+
+
+            <!-- My Own Type Photo Carousel -->
+            <div class="photo carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="imgs\ITST\ITST_myowntype1.png" alt="My Own Type 1">
+                        <img src="imgs\ITST\ITST_myowntype2.png" alt="My Own Type 2">
+                        <img src="imgs\ITST\ITST_myowntype3.png" alt="My Own Type 3">
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div><!-- close carousel container -->
+            </div><!-- close My Own Type photo carousel -->
+
+            <!-- Duality Photo Carousel -->
+            <div class="photo carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="imgs\ITST\ITST_Duality.png" alt="Duality 1">
+                        <img src="imgs\ITST\ITSTDuality2.png" alt="Duality 2">
+                        <img src="imgs\ITST\ITST_Duality3.png" alt="Duality 3">
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div><!-- close carousel container -->
+            </div><!-- close Duality photo carousel -->
+
+            <!-- Locker Room Photo Carousel -->
+            <div class="photo carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="imgs\ITST\ITST_LockerRoom1.jpg" alt="Locker Room 1">
+                        <img src="imgs\ITST\ITST_LockerRoom2.jpg" alt="Locker Room 2">
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div><!-- close carousel container -->
+            </div><!-- close Locker room photo carousel -->
+
+            <!-- One Year Photo Carousel -->
+            <div class="photo carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear.jpg" alt="One Year 1">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear2.jpg" alt="One Year 2">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear3.jpg" alt="One Year 3">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear4.jpg" alt="One Year 4">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear5.jpg" alt="One Year 5">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear6.jpg" alt="One Year 6">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear7.jpg" alt="One Year 7">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear8.jpg" alt="One Year 8">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear9.jpg" alt="One Year 9">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear10.jpg" alt="One Year 10">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear11.jpg" alt="One Year 11">
+                        <img src="imgs\ITST\1 Year\ITST_OneYear12.jpg" alt="One Year 12">
+
+
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div><!-- close carousel container -->
+            </div><!-- close One year photo carousel -->
+
+        </div><!-- close photo grid -->
+    </section> <!-- close photo section -->
+</div> <!-- close content -->
+    
+    <script src="script.js"></script>
 </body>
 </html>
