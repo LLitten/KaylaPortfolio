@@ -68,7 +68,8 @@ header {
     padding: 20px;
     align-items: center;
     text-align: center;
-    margin-left: 40%;
+    align-self: center;
+
 }
 
 main {
