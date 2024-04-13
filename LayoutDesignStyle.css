@@ -67,8 +67,8 @@ header {
     justify-content: center;
     padding: 20px;
     align-items: center;
+    align-self: center;
     text-align: center;
-    margin-left: 40%;
 }
 
 main {
@@ -76,7 +76,6 @@ main {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     align-items: center;
     align-self: center;
     text-align: center;
@@ -85,7 +84,6 @@ main {
 
 section {
     padding: 10px;
-    /* margin-bottom: 20px; */
     border-radius: 5px;
     /* background-color:aqua; */
     width: 100%;
@@ -152,4 +150,22 @@ section {
     font-size: 25px;
 }
 
+.photo-section {
+    margin-top: 20px;
+}
 
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+
+.photo {
+    flex-basis: calc(47% - 5px); /* Adjust the width of each photo */
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
