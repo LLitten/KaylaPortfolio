@@ -1,15 +1,13 @@
-        Carousel added inside the content
-        <div class="carousel-container">
-            <div class="carousel-slide">
-                <img src="image1.jpg" alt="Image 1">
-                <img src="image2.jpg" alt="Image 2">
-                <img src="image3.jpg" alt="Image 3">
-            </div> <!-- close carousel slide -->
-            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-            <button class="next" onclick="moveSlide(1)">&#10095;</button>
-        </div> close crousel container 
-   </div>  <!-- close content -->
 
-    <script src="script.js"></script> 
-
-    
+<!-- Photo Carousel -->
+<div class="photo carousel">
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="image1.jpg" alt="1">
+            <img src="image2.jpg" alt="2">
+            <img src="image3.jpg" alt="3">
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div><!-- close carousel container -->
+</div><!-- close photo carousel -->
